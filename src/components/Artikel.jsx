@@ -13,13 +13,13 @@ function Artikel() {
     <section className="Artikel">
      <div className='Art'>
                 <div className="img-box1">
-                    <img className="img1"src={kapal} />
+                    <img className="img1"src={kapal} alt="kapal" />
                 </div>
                 <div className="img-box1">
-                    <img className="img1"src={ikan} />
+                    <img className="img1"src={ikan} alt="ikan"/>
                 </div>
                 <div className="img-box1">
-                    <img className="img1"src={bukit} />
+                    <img className="img1"src={bukit} alt="bukit" />
                 </div>
              </div>
         <div className="text">
