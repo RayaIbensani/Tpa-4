@@ -1,0 +1,21 @@
+.img-box{
+    width: 300px;
+    height: 300px;
+    border: solid black;
+    margin: 10px;
+}
+.modified-img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-bottom: auto;
+}
+.Pic{
+width: 100%;
+display: flex;
+padding: 0 50px;
+font-family: 'Times New Roman', Times, serif;
+justify-content: center;
+margin: 15px 0;
+gap: 2rem;
+}
