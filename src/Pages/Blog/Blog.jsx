@@ -1,16 +1,17 @@
 import React from 'react';
-import './Artikel/artikel.css';
-import kapal from '../assets/kapal.jpg';
-import ikan from '../assets/ikan.jpg';
-import bukit from '../assets/bukit.jpg';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import '../Blog/blog.css';
+import kapal from '../../assets/kapal.jpg';
+import ikan from '../../assets/ikan.jpg';
+import bukit from '../../assets/bukit.jpg';
+// import Navbar from '../../components/Navbar/Navbar';
+// import Footer from '../../components/Footer/Footer';
+// import {AppContext} from './Context/AppContext';
 
-function Artikel() {
+const Blog = () => {
   return (
     <>
-    <Navbar />
-    <section className="Artikel">
+    {/* <Navbar /> */}
+    <section className="Blog">
      <div className='Art'>
                 <div className="img-box1">
                     <img className="img1"src={kapal} alt="kapal" />
@@ -30,9 +31,9 @@ function Artikel() {
             </p>
         </div>
     </section>
-    <Footer />
+    {/* <Footer /> */}
     </>
   )
 }
 
-export default Artikel
+export default Blog

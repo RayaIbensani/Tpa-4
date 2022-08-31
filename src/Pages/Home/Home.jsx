@@ -1,20 +1,21 @@
-import Navbar from './Navbar';
-import tulip from '../assets/tulip.jpg';
-import "./Home/home.css";
-import "../index.css";
-import Footer from './Footer';
+// import Navbar from '../../components/Navbar/Navbar';
+import tulip from '../../assets/tulip.jpg';
+import "../Home/home.css";
+// import Footer from '../../components/Footer/Footer';
+import React from 'react';
+// import {AppContext} from './Context/AppContext';
 
-function Home() {
+const Home = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
  <section className='gambar1'>
     <div style={{
       backgroundImage: `url(${tulip})`,
       backgroundPosition: 'relative',
       backgroundSize: 'cover',
       width: '100vw',
-      height: '60vh',
+      height: '100vh',
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -27,7 +28,7 @@ function Home() {
     }}>Welcome</h2>
     </div>
  </section>
- <Footer />
+ {/* <Footer /> */}
  </>
    )
  }

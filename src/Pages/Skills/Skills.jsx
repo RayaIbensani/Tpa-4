@@ -1,22 +1,23 @@
 import React from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Moyo from '../assets/Mata-jitu.JPG';
-import Airterjun from '../assets/Air-terjun.JPG';
-import Rumah from '../assets/Rumah.JPG';
-import pelangi from '../assets/pelangi.jpg';
-import pantai from '../assets/pantai.jpg';
-import maluk from '../assets/maluk.jpg';
-import kapal from '../assets/kapal.jpg';
-import ikan from '../assets/ikan.jpg';
-import bukit from '../assets/bukit.jpg';
-import './Skills/skills.css';
+// import Footer from '../../components/Footer/Footer';
+// import Navbar from '../../components//Navbar/Navbar';
+import Moyo from '../../assets/Mata-jitu.JPG';
+import Airterjun from '../../assets/Air-terjun.JPG';
+import Rumah from '../../assets/Rumah.JPG';
+import pelangi from '../../assets/pelangi.jpg';
+import pantai from '../../assets/pantai.jpg';
+import maluk from '../../assets/maluk.jpg';
+import kapal from '../../assets/kapal.jpg';
+import ikan from '../../assets/ikan.jpg';
+import bukit from '../../assets/bukit.jpg';
+import '../Skills/skills.css';
+// import { AppContext } from './Context/AppContext';
 
 
-function Skills() {
+const Skills = () => {
   return (
    <>
-    <Navbar />
+    {/* <Navbar /> */}
     <section className='Skills'>
         <div className="container">
             <h3>Skills</h3>
@@ -80,7 +81,7 @@ function Skills() {
         </div>
         </div>
             </div>
-         <Footer />
+         {/* <Footer /> */}
           </>
   )
 }

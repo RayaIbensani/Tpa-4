@@ -1,13 +1,14 @@
 import React from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import me from '../assets/Raya.jpg';
-import './About/about.css';
+// import Footer from '../../components/Footer/Footer';
+// import Navbar from '../../components/Navbar/Navbar';
+import me from '../../assets/Raya.jpg';
+import '../About/about.css';
+// import { AppContext } from './Context/AppContext';
 
-function About() {
+const About = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     <section className="about">
         <div className="container">
             <h3>ABOUT</h3>
@@ -21,7 +22,7 @@ function About() {
             </div>
             {/* </div> */}
     </section>
-    <Footer />
+    {/* <Footer /> */}
     </>
   )
 }
